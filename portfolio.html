@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Aster & Ember Studio</title>
+    <meta name="description" content="Browse wedding photography portfolio highlights from Pakistani weddings, Mehndi events, Nikkah ceremonies, Walima celebrations, bridal portraits, and couple shoots." />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body data-page="portfolio">
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="logo" aria-label="Aster & Ember Studio home page">
+          <span class="logo-mark" aria-hidden="true"></span>
+          <span class="studio-name">Aster & Ember Studio</span>
+        </a>
+        <nav aria-label="Main navigation">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a href="contact.html" class="btn btn-primary">Book Now</a>
+          <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="subpage-hero">
+        <div class="container">
+          <div class="breadcrumb">Home / Portfolio</div>
+          <h1>Our Portfolio</h1>
+        </div>
+      </section>
+
+      <section class="page-content">
+        <div class="container">
+          <div class="portfolio-shell reveal">
+            <div id="portfolio-filters" class="filter-bar" aria-label="Portfolio categories"></div>
+            <div id="portfolio-grid" class="gallery-grid"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-logo">
+            <span class="logo-mark" aria-hidden="true"></span>
+            <span class="studio-name-footer">Aster &amp; Ember Studio</span>
+          </div>
+          <p>We document joyful Pakistani weddings with elegant storytelling, cinematic motion, and heartfelt attention to tradition.</p>
+          <div class="social-row">
+            <a href="#" data-instagram-link target="_blank" rel="noreferrer" aria-label="Instagram">◎</a>
+            <a href="#" data-facebook-link target="_blank" rel="noreferrer" aria-label="Facebook">f</a>
+            <a href="#" data-youtube-link target="_blank" rel="noreferrer" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div>
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Services</h3>
+          <ul class="footer-services">
+            <li><a href="services.html">Wedding Photography</a></li>
+            <li><a href="services.html">Videography</a></li>
+            <li><a href="services.html">Mehndi Coverage</a></li>
+            <li><a href="services.html">Drone Films</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3>Contact</h3>
+          <ul class="footer-links">
+            <li><a href="#" class="studio-phone" data-phone-link>+92 300 1234567</a></li>
+            <li><a href="#" class="studio-email" data-email-link>hello@asterandemberstudio.com</a></li>
+            <li><span class="studio-address">Karachi, Pakistan</span></li>
+            <li><a href="#" data-wa-link target="_blank" rel="noreferrer">WhatsApp</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="current-year"></span> <span class="studio-name-footer">Aster &amp; Ember Studio</span>. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <a class="whatsapp-float" data-wa-link href="#" target="_blank" rel="noreferrer" aria-label="Chat on WhatsApp">WhatsApp</a>
+    <button id="back-to-top" class="back-top" aria-label="Back to top">↑</button>
+
+    <div id="portfolio-modal" class="portfolio-modal" aria-modal="true" role="dialog">
+      <button class="modal-close" aria-label="Close lightbox">✕</button>
+      <div class="portfolio-modal-box">
+        <img class="portfolio-modal-image" src="" alt="Portfolio image" />
+        <div class="modal-body">
+          <h3 class="portfolio-modal-title"></h3>
+          <p class="portfolio-modal-category"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
